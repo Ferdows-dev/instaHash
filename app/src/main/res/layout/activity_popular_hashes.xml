@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopularHashes">
+
+    <RelativeLayout
+        android:id="@+id/re2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+
+            //hor1
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#love"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instagood"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#tbt"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            //hor2
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#photooftheday"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#like4like"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //hor3
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#nature"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#like"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text=" #swag"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            //hor4
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#picoftheday"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#art"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+
+
+
+            </LinearLayout>
+
+
+//hor 5
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#tagsforlikes"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#amazing"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+//hor6
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#life"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#smile"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instalike"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //hor 7
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#follow4follow"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#followme"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+
+
+
+            </LinearLayout>
+
+            //hor 8
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#nature"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#like"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text=" #swag"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //hor9
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instadaily"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#tagsforlikes"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //hor10
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instamood"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#bestoftheday"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+
+
+
+            </LinearLayout>
+
+            //hor11
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#l4l"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#f4f"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instacool"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            //hor12
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#lifestyle"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#hot"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text=" #model"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            //hor13
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#motivation"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#instagram"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+
+
+
+            </LinearLayout>
+
+            //hor14
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag3">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#party"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag2">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#girls"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag3
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag1">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text=" #cool"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+//hor15
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                //tag1
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tag4">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#motivation"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+                //tag2
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/tagshape">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:enabled="true"
+                        android:focusable="true"
+                        android:longClickable="true"
+                        android:text="#yummy"
+                        android:textColor="@android:color/white"
+                        android:textIsSelectable="true"
+                        android:textSize="22sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
